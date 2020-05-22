@@ -33,25 +33,3 @@ PeerOrgs:
       # Hostname: {{.Prefix}}{{.Index}} # default
       SANS:
         - "localhost"
-
-  - Name: Org2
-    Domain: org2.example.com
-    EnableNodeOUs: true
-
-    Template:
-      Count: 1
-      # Start: 5
-      # Hostname: {{.Prefix}}{{.Index}} # default
-      SANS:
-        - "localhost"
-  
-  - Name: Org3
-    Domain: org3.example.com
-    EnableNodeOUs: true
-
-    Template:
-      Count: 1
-      # Start: 5
-      # Hostname: {{.Prefix}}{{.Index}} # default
-      SANS:
-        - "localhost"
