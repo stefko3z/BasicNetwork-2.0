@@ -30,3 +30,6 @@ configtxgen -profile BasicChannel -configPath . -outputAnchorPeersUpdate ./Org1M
 
 echo "#######    Generating anchor peer update for Org2MSP  ##########"
 configtxgen -profile BasicChannel -configPath . -outputAnchorPeersUpdate ./Org2MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org2MSP
+
+echo "#######    Generating anchor peer update for Org3MSP  ##########"
+configtxgen -profile BasicChannel -configPath . -outputAnchorPeersUpdate ./Org3MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org3MSP
